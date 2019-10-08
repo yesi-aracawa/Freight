@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap');
+.header{
+    background-color: #FC636B;
+    position: inherit;
+    overflow: hidden;
+    justify-content: center;
+    height: 100px;
+}
+.contenedor{
+    width: 100%;
+    overflow: hidden;
+}
+.logo1{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #FFFF;
+    position: fixed;
+}
+.contentLogo{
+    padding: 10px 133px;
+    display: inline-block;
+}
+.tipoLetra{
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #FFFF;
+    font-size: 15px;
+    margin: 0 12px; /*margen entre las palabras del menu*/
+    letter-spacing: 1.5px; /*espacio entre las letras*/
+}
+.tipoLetra:hover{
+    color: #FCBABD;
+}
+.menuG{
+    display: block;
+    padding: 0 15px;
+}
+
+.nav{
+    position: fixed;
+    top: 60px;
+    width: 90%;
+    left: 30%;
+}
+.menu-link{
+    display: block;
+    padding: 15px;
+}
+
+nav a:hover{
+    background-color: rgb(0,0,0,0.5);
+}
+nav li{
+    line-height: 5px;
+    position: relative;
+}
+.menu ul{
+    position: relative;
+}
+/* .menu{
+    display: table;
+    width: 100%;
+} */
+nav > ul > li{ /* todos los hijos directos o primeros hijos del nav y del ul, se le apliacara 
+    esta popiedad para que este a la misma altura*/
+    float: left;
+}
+nav li li{
+    max-height: 0;
+    overflow: hidden; /* recorta la imagen o texto para que no se salga de su imagen*/
+}
+nav li:hover > ul > li{
+    max-height: 1000px;/*es para que muestre al completo  el menu, pues debe haber un margen
+    para que el ajuste con los menus sea correcto*/
+    overflow: visible;/* es para que se vean todos los submenus*/
+}
+.menu ul ul{
+    left: 100%;
+    top: 0;
+}
+ul li ul li{
+    display: block;
+}
+.menu{
+    display: flex;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav{
+    text-decoration: none;
+    padding: 0 5px;
+    display: block;
+    width: 150px;
+    text-align: center;
+}
+.radio{
+    border-radius: 5px;
+    border: #FFFF 1px solid;
+}
+
+@media (min-width:250px){
+    /*para dispositovos MAYORES a 250 px*/
+    
+}
+@media (min-width:450px){
+   
+    
+}
+@media (min-width:560px){
+    
+    
+}
+@media (max-width: 768px) {
+    /*para dispositivos MENORES a 768 px, celulares en horizontal o tablets en vertical*/
+    
+}
+@media (min-width:768px){
+    /*para dispositovos MAYORES a 768 px, tablets en horizontal*/
+    
+}
+
+@media (min-width: 992px){
+    /*para dispositivos mayores a 992 px, computadora*/
+    
+    
+}
+@media (min-width: 1050px){
+    /*para dispositivos mayores a 1050 px, computadora*/
+    
+    
+}
+@media (min-width: 1110px){
+    /*para dispositivos mayores a 1110 px, computadora*/
+    
+}
+
