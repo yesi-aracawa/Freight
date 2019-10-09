@@ -10,6 +10,7 @@
     display: inline-flex;
     height: 35px;
     box-shadow: 0.1px 0.1px 6px #0D1326;
+    z-index: 9000;
 }
 
 .imagBack {
@@ -84,12 +85,15 @@
     opacity: 0.7;
     filter: alpha(opacity=50);
 }
+.diferente{
+    font-size: 20px;
+}
 
 @media (min-width:250px){
     /*para dispositovos MAYORES a 250 px*/
     .left {
         float: right;
-        margin-left: 10%;
+        margin-left: 0%;
     }
     .ajuste-nav {
         margin: 0px 3px 0px 4%;
@@ -98,7 +102,11 @@
     .nada1{
         display: none;
     }
-    
+    .imgDesc {
+        padding: 0px 5px 0 80px;
+        width: 32px;
+        height: 32px;
+    }
 }
 @media (min-width:450px){
     /*para dispositovos MAYORES a 450 px*/
@@ -109,6 +117,11 @@
     .ajuste-nav {
         margin: 0px 3px 0px 4%;
         position: fixed;
+    }
+    .imgDesc {
+        padding: 0px 5px 0 8px;
+        width: 32px;
+        height: 32px;
     }
     
 }
@@ -122,20 +135,27 @@
         margin: 0px 3px 0px 4%;
         position: fixed;
     }
+    .imgDesc {
+        padding: 0px 5px 0 130px;
+        width: 32px;
+        height: 32px;
+    }
     
 }
 @media (max-width: 768px) {
     /*para dispositivos MENORES a 768 px, celulares en horizontal o tablets en vertical*/
-    .left {
-        float: right;
-        margin-left: 23%;
-    }
+    
     .ajuste-nav {
         margin: 0px 3px 0px 5%;
         position: fixed;
     }
     .nada{
         display: none;
+    }
+    .imgDesc {
+        padding: 0px 5px 0 10px;
+        width: 32px;
+        height: 32px;
     }
     
 }
@@ -155,7 +175,11 @@
     .nada1{
         display: inherit;
     }
-    
+    .imgDesc {
+        padding: 0px 5px 0 80px;
+        width: 32px;
+        height: 32px;
+    }
 }
 
 @media (min-width: 992px){

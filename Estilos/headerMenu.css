@@ -1,140 +1,235 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap');
-.header{
+header {
+    left: 0;
+    width: 100%;
+}
+
+.contenedor {
     background-color: #FC636B;
     position: inherit;
     overflow: hidden;
     justify-content: center;
-    height: 100px;
+    
+    left: 0;
+    margin-left: -1%;
 }
-.contenedor{
-    width: 100%;
-    overflow: hidden;
-}
-.logo1{
+
+.logo1 {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     text-decoration: none;
     color: #FFFF;
-    position: fixed;
+    font-size: 48px;
 }
-.contentLogo{
-    padding: 10px 133px;
+
+.contentLogo {
+    padding: 28px 10px 5px 70px;
     display: inline-block;
+    width: fit-content;
+    position: inherit;
 }
-.tipoLetra{
+
+.tipoLetra {
     font-family: 'Lato', sans-serif;
     text-decoration: none;
     color: #FFFF;
     font-size: 15px;
-    margin: 0 12px; /*margen entre las palabras del menu*/
-    letter-spacing: 1.5px; /*espacio entre las letras*/
+    margin: 0 12px;
+    /*margen entre las palabras del menu*/
+    letter-spacing: 1.5px;
+    /*espacio entre las letras*/
 }
-.tipoLetra:hover{
+
+.tipoLetra:hover {
     color: #FCBABD;
 }
-.menuG{
-    display: block;
-    padding: 0 15px;
-}
 
-.nav{
-    position: fixed;
-    top: 60px;
-    width: 90%;
-    left: 30%;
+.contentMenu {
+    display: inherit;
 }
-.menu-link{
-    display: block;
-    padding: 15px;
-}
-
-nav a:hover{
-    background-color: rgb(0,0,0,0.5);
-}
-nav li{
-    line-height: 5px;
-    position: relative;
-}
-.menu ul{
-    position: relative;
-}
-/* .menu{
-    display: table;
-    width: 100%;
-} */
-nav > ul > li{ /* todos los hijos directos o primeros hijos del nav y del ul, se le apliacara 
-    esta popiedad para que este a la misma altura*/
-    float: left;
-}
-nav li li{
-    max-height: 0;
-    overflow: hidden; /* recorta la imagen o texto para que no se salga de su imagen*/
-}
-nav li:hover > ul > li{
-    max-height: 1000px;/*es para que muestre al completo  el menu, pues debe haber un margen
-    para que el ajuste con los menus sea correcto*/
-    overflow: visible;/* es para que se vean todos los submenus*/
-}
-.menu ul ul{
-    left: 100%;
-    top: 0;
-}
-ul li ul li{
-    display: block;
-}
-.menu{
-    display: flex;
-}
-nav ul{
-    list-style: none;
+ul {
+    top: 3%;
+    list-style-type: none;
+    margin: 0;
     padding: 0;
-}
-nav{
-    text-decoration: none;
-    padding: 0 5px;
-    display: block;
-    width: 150px;
+    overflow: hidden;
+    width: max-content;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
     text-align: center;
+    padding: 14px 16px ;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0 12px;
+    letter-spacing: 2px;
+  }
+  .radio {
+    border-radius: 5px;
+    border: #FFFF 1px solid;
 }
-.radio{
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    color: #FCBABD;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #241f1f;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #241f1f;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.radio {
     border-radius: 5px;
     border: #FFFF 1px solid;
 }
 
-@media (min-width:250px){
+.imgPort {
+    width: 101.6%;
+    overflow: hidden;
+    margin-left: -1%;
+}
+
+
+@media (min-width:250px) {
     /*para dispositovos MAYORES a 250 px*/
+    .contenedor {
+        width: 104.5%;
+        overflow-x: hidden;
+        margin-left: -2.2%;
+    }
+    .imgPort {
+        width: 104.5%;
+        overflow-x: hidden;
+        margin-left: -2.2%;
+    }
+    
     
 }
-@media (min-width:450px){
-   
+
+@media (min-width:450px) {
+    .contenedor {
+        width: 103.2%;
+        overflow-x: hidden;
+        margin-left: -1.6%;
+    }
+    .imgPort {
+        width: 103.2%;
+        overflow-x: hidden;
+        margin-left: -1.6%;
+    }
+    
     
 }
-@media (min-width:560px){
-    
+
+@media (min-width:560px) {
+    /*para dispositivos mayores a 560 px, celulares en horizontal o tablets en vertical*/
     
 }
+
 @media (max-width: 768px) {
     /*para dispositivos MENORES a 768 px, celulares en horizontal o tablets en vertical*/
-    
+    .contentLogo {
+        padding: 20px 10px 5px 40px;
+        display: inline-block;
+        width: fit-content;
+        position: inherit;
+    }
+    .nada-menu{
+        display: none;
+    }
 }
-@media (min-width:768px){
+
+@media (min-width:768px) {
     /*para dispositovos MAYORES a 768 px, tablets en horizontal*/
+    .contenedor {
+        width: 102%;
+        overflow: hidden;
+        margin-left: -1%;
+    }
+    .contentLogo {
+        padding: 28px 10px 5px 70px;
+        display: inline-block;
+        width: fit-content;
+        position: inherit;
+    }
+    .imgPort {
+        width: 102%;
+        overflow: hidden;
+        margin-left: -1%;
+    }
     
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
     /*para dispositivos mayores a 992 px, computadora*/
-    
-    
-}
-@media (min-width: 1050px){
-    /*para dispositivos mayores a 1050 px, computadora*/
-    
-    
-}
-@media (min-width: 1110px){
-    /*para dispositivos mayores a 1110 px, computadora*/
-    
+    .contentLogo {
+        padding: 28px 10px 5px 70px;
+        display: inline-block;
+        width: fit-content;
+        position: inherit;
+    }
+    .nada-menu1{
+        display: none;
+    }
 }
 
+@media (min-width: 1050px) {
+    /*para dispositivos mayores a 1050 px, computadora*/
+    .contentLogo {
+        padding: 28px 10px 5px 70px;
+        display: inline-block;
+        width: fit-content;
+        position: inherit;
+    }
+}
+
+@media (min-width: 1110px) {
+    /*para dispositivos mayores a 1110 px, computadora*/
+    .contenedor {
+        width: 101.6%;
+        overflow-x: hidden;
+        margin-left: -1%;
+    }
+    .contentLogo {
+        padding: 28px 10px 5px 70px;
+        display: inline-block;
+        width: fit-content;
+        position: inherit;
+    }
+    .imgPort {
+        width: 101.6%;
+        overflow: hidden;
+        margin-left: -1%;
+    }
+    
+}

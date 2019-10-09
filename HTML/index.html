@@ -11,6 +11,8 @@
         href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="../Estilos/encabezado.css">
     <link rel="stylesheet" href="../Estilos/headerMenu.css">
+    <link rel="stylesheet" href="../Estilos/seccion.css">
+    <link rel="javascript" href="../JavaScript/menu.js">
 </head>
 
 <body>
@@ -20,51 +22,63 @@
         <a href="http://w3layouts.com" class="logo">W3Layout</a>
 
         <div class="left">
-            <nav>
                 <div class="linea">
                     <a class="" href=#><img class="imgLapiz nada" src="../Imagenes/pencil-edit-button.png"></a>
                     <a href=# class="letras1 ajuste-nav nada">Edit</a>
                     <a href=# class=""><img class="imgDesc" src="../Imagenes/download1.png"></a>
                     <a href=# class="letras2 ajuste-nav-1 nada1">Download</a>
                 </div>
-            </nav>
         </div>
     </div>
     <br><br>
     <header>
         <div class="contenedor">
-            <div class="header">
                 <div class="contentLogo">
-                    <h1><a class="logo1" href="../HTML/index.html">Freight</a></h1>
+                    <span><a class="logo1" href="../HTML/index.html">Freight</a></span>
+                    &nbsp &nbsp &nbsp 
+                    <div class="contentMenu">
+                            <ul class="tipoLetra">
+                                    <li class="nada-menu"><a href=#>Home</a></li>
+                                    <li class="nada-menu"><a href=#>About Us</a></li>
+                                    <li class="nada-menu"><a href=#>Portfolio</a></li>
+                                    <li class="dropdown nada-menu">
+                                      <a href="javascript:void(0)" class="dropbtn nada-menu">Dropdown</a>
+                                      <div class="dropdown-content nada-menu">
+                                        <a href="#">Blog</a>
+                                        <a href="#">Single Page</a>
+                                        <a href="#">Services</a>
+                                        <a href=#>More</a>
+                                      </div>
+                                    </li>
+                                    <li class="nada-menu"><a href=#>Contact Us</a></li>
+                                    <li><a class="radio" href=#>Login</a></li>
+                                    <li><a class="radio" href=#>Register</a></li>
+                                  </ul>
+                    </div>
                 </div>
-                <div class="menuG">
-                    <nav class="nav" id="nav">
-                        <ul class="menu">
-                            <li class="menu-item"><a href="" class="tipoLetra menu-link">Home</a> </li>
-                            <li class="menu-item"><a href="" class="tipoLetra menu-link ">About Us</a></li>
-                            <li class="menu-item"><a href="" class="tipoLetra menu-link ">Portfolio</a></li>
-                            <li class="menu-item">
-                                <a href="" class="tipoLetra menu-link ">Drop Down</a>
-                                <ul>
-                                    <li class="menu-item"><a href="" class="tipoLetra menu-link">Blog</a></li>
-                                    <li class="menu-item"><a href="" class="tipoLetra menu-link">Single Page</a></li>
-                                    <li class="menu-item"><a href="" class="tipoLetra menu-link">Services</a></li>
-                                    <li class="menu-item"><a href="" class="tipoLetra menu-link">More</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item"><a href="" class="tipoLetra menu-link ">Contact Us</a></li>
-                            <li class="menu-item"><a href="" class="tipoLetra menu-link radio ">Login</a></li>
-                            <li class="menu-item"><a href="" class="tipoLetra menu-link radio ">Register</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-
         </div>
     </header>
-    <div>
-        <img src="../Imagenes/port.jpg">
-    </div>
+   <section class="contentImg">
+       <div class="fondo" id="transparencia">
+        <div class="content-text">
+            <div class="texto-imagen">
+                <span class="text-img">World Wide <br> Transportation</span>
+                <p class="text-lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum blanditiis dolorem laudantium. Recusandae, dolor dolores vero ullam at nam placeat culpa beatae iste.</p>
+                <form>
+                    <input class="caja-texto" type="search" placeholder="Enter Your Track Id">
+                   <button class="btn-track">Track Now</button>
+                </form>
+            </div>
+        </div>
+        <br><br><br><br>
+       </div>
+    </section>
+    <!-- <div>
+        <div class="fondo">
+            
+        </div>
+        
+    </div> -->
 
 </body>
 
