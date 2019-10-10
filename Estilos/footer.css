@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap');
+.footer-sec{
+    background: #17181b;
+    width: 101.2%;
+    margin-left: -7.6px;
+}
+.content-footer{
+    max-width: 1140px;
+    display: inline-flex;
+}
+.freight{
+    width: 180px;    
+    padding: 80px 15px 80px 120px;
+}
+.detalles-p{
+    width: 180px;
+}
+.letras-Fr{
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #fff;
+    font-weight: normal;
+    text-decoration: none;
+}
+.correo{
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+.detalles-letra{
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    line-height: 28px;
+}
+.navigation{
+    width: 180px;    
+    padding: 80px 15px 60px 120px;
+}
+.navi-letras{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: #fff;
+}
+.despliegue-ul{
+    display: grid;
+}
+.detalle-hr{
+    border-top: 1px solid rgba(255, 255, 255, 0.36);
+    margin-top: 1rem;
+}
+.links{
+    width: 180px;    
+    padding: 80px 15px 60px 15px;
+}
+.privacidad{
+    padding: 1vw;
+    background: #11d491;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-left: -7.6px;
+    width: 99.1%;
+}
+
+
