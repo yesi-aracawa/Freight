@@ -22,7 +22,10 @@ header {
     color: #FFFF;
     font-size: 48px;
 }
-
+.logo1:hover {
+    text-decoration: none;
+    color: #FCBABD;
+}
 .contentLogo {
     padding: 28px 10px 5px 70px;
     display: inline-block;
