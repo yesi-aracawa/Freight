@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap');
+.fondo{
+    background-image: url(../Imagenes/port1.jpg);
+    max-height: 100%;
+    width: 101.6%;
+    overflow: hidden;
+    margin-left: -1%;
+}
+#transparencia{
+    opacity: 0.9;
+    background-color: black;
+}
+.text-img{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: #ECF0F6;
+    font-size: 50px;
+}
+.text-lorem{
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    color: #ECF0F6;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    line-height: 27px;
+}
+.contentImg{
+    position: inherit;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    max-height: 100%;
+}
+.content-text{
+    top: 40%;
+    left: 90px;
+}
+.texto-imagen{
+    padding: 130px 350px 30px 130px;
+}
+.caja-texto{
+    padding: 10px 12px;
+    border: none;
+    letter-spacing: 1px;
+    font-size: 14px;
+    width: 40%;
+    height: 40px;
+}
+.btn-track{
+    background: #11d491;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    font-size: 15px;
+    height: 40px;
+    padding: 11px 20px;
+    margin-left: -0.5%;
+}
+
+@media (min-width:250px) {
+    /*para dispositovos MAYORES a 250 px*/
+       
+}
+
+@media (min-width:450px) {
+         /*para dispositivos mayores a 450 px, celulares en horizontal o tablets en vertica*/
+    
+}
+
+@media (min-width:560px) {
+    /*para dispositivos mayores a 560 px, celulares en horizontal o tablets en vertical*/
+    
+}
+
+@media (max-width: 768px) {
+    /*para dispositivos MENORES a 768 px, celulares en horizontal o tablets en vertical*/
+    .fondo{
+        width: 102.3%;
+        overflow: hidden;
+        margin-left: -1.2%;
+    }
+    .text-img{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        color: #ECF0F6;
+        font-size: 40px;
+    }
+    .text-lorem{
+        font-family: 'Lato', sans-serif;
+        font-weight: normal;
+        color: #ECF0F6;
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+    .texto-imagen{
+        padding: 90px 35px 30px 30px;
+    }
+    .btn-track{
+        margin-left: -0.7%;
+    }
+}
+
+@media (min-width:768px) {
+    /*para dispositovos MAYORES a 768 px, tablets en horizontal*/
+    .fondo{
+        width: 102%;
+        overflow: hidden;
+        margin-left: -1%;
+    }
+    .text-img{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        color: #ECF0F6;
+        font-size: 50px;
+    }
+    .text-lorem{
+        font-family: 'Lato', sans-serif;
+        font-weight: normal;
+        color: #ECF0F6;
+        font-size: 15px;
+        letter-spacing: 1.5px;
+    }
+    .texto-imagen{
+        padding: 90px 95px 30px 60px;
+    }
+    .btn-track{
+        margin-left: -0.7%;
+    }
+}
+
+@media (min-width: 992px) {
+    /*para dispositivos mayores a 992 px, computadora*/
+    
+}
+
+@media (min-width: 1050px) {
+    /*para dispositivos mayores a 1050 px, computadora*/
+}
+
+@media (min-width: 1110px) {
+    /*para dispositivos mayores a 1110 px, computadora*/
+    .fondo{
+        width: 101.6%;
+        overflow: hidden;
+        margin-left: -1%;
+    }
+    .texto-imagen{
+        padding: 130px 350px 30px 130px;
+    }
+}
