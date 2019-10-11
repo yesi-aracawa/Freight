@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat+Alternates&display=swap');
+
+.card-p, .card-l{
+  border: 0;
+}
+
+.card-p:hover {
+  box-shadow: 0px 15px 30px 0px rgba(109, 108, 108, 0.5); 
+}
+
+.head-card {
+  position: relative;
+}
+
+.portfolio {
+ align-content: center;
+}
+
+.h4-black {
+  text-transform: capitalize;
+  font-size: 2.1em;
+  font-weight: 600;
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.label-post {
+  position: absolute;
+  line-height: 3;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  padding: 0px 12px;
+  text-transform: capitalize;
+  background: hsla(357, 0%, 2%, 0.28);
+  color: #fff;
+}
+
+.btn-read, .btn-read:hover {
+  border-radius: 0;
+  border: 0;
+  border-color: unset;
+  display: inline-block;
+  margin-top: 2em;
+  padding: 6px 18px;
+  background: #11d491;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.p-center, .h1-black, .card-title, .card-text, .h4-black {
+  text-align: center;
+}
+
+.p-center {
+  color: #999;
+  text-transform: capitalize;
+  width: 60%;
+  margin: 1em auto 0;
+}
+
+.card-text {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.9;
+  color: #999;
+}
+
+.pc-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 1em;
+  color: #fc636b;
+  letter-spacing: .5px;
+  font-family: sans-serif;
+}
+
+.pc-body {
+  font-family: 'Lato', sans-serif;
+  background-color: #e6ebff;
+  color: rgb(167, 164, 164);
+}
+
+.lc-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+  text-transform: capitalize;
+  color: #333;
+  display: block;
+}
+
+.lc-body {
+  background-color: #eae9ea;;
+  color: #2c2e31;
+}
+
+.img-latest {
+  width: 100%;
+  border-bottom-right-radius: calc(0.25rem - 1px);
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+
+.img-link:hover {
+  color: #fff;
+  opacity: .8;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+ .card-p, .card-l {
+    width: 90%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .grid-cont, .row-cont {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-p {
+    width: 90%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .card-l {
+    width: 45%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .grid-cont {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-p, .card-l {
+    margin: 2% 2% 0 0;
+    width: 30%;
+  }
+  .grid-cont, .row-cont {
+    margin-left: 6%;
+  }
+}
