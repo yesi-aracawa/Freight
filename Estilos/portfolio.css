@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat+Alternates&display=swap');
 
-.card-p{
+.card-p, .card-l{
   border: 0;
-  margin: 2% 2% 0 0;
-  width: 30%;
 }
 
 .card-p:hover {
   box-shadow: 0px 15px 30px 0px rgba(109, 108, 108, 0.5); 
-}
-
-.card-l {
- border: 0;
 }
 
 .head-card {
@@ -47,18 +41,37 @@
 }
 
 .btn-read, .btn-read:hover {
-  background-color: #11d491;
   border-radius: 0;
   border: 0;
   border-color: unset;
+  display: inline-block;
+  margin-top: 2em;
+  padding: 6px 18px;
+  background: #11d491;
+  color: #fff;
+  letter-spacing: 1px;
 }
 
 .p-center, .h1-black, .card-title, .card-text, .h4-black {
   text-align: center;
 }
 
+.card-text {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.9;
+  color: #999;
+}
+
 .pc-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 1em;
   color: #fc636b;
+  letter-spacing: .5px;
   font-family: sans-serif;
 }
 
@@ -71,13 +84,14 @@
 .lc-title {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  text-align: left;
-  color: #272a2f;
-
+  font-size: 1.1em;
+  text-transform: capitalize;
+  color: #333;
+  display: block;
 }
 
 .lc-body {
-  background-color: #d3d0d3;
+  background-color: #eae9ea;;
   color: #2c2e31;
 }
 
@@ -88,5 +102,49 @@
 }
 
 .img-link:hover {
-    box-shadow: 0px 0px 0px 0px rgba(245, 243, 243, 0.308);
+    background-color:  rgba(255, 255, 255, 0.952);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+ .card-p, .card-l {
+    width: 90%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .grid-cont, .row-cont {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-p {
+    width: 90%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .card-l {
+    width: 45%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .grid-cont {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-p, .card-l {
+    margin: 2% 2% 0 0;
+    width: 30%;
+  }
 }
