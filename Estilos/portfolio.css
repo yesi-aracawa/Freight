@@ -11,16 +11,19 @@
 .head-card {
   position: relative;
 }
+
+.portfolio {
+ align-content: center;
+}
+
 .h4-black {
-  font-family: 'Montserrat Alternates', sans-serif;
   text-transform: capitalize;
-  font-size: 2.3em;
+  font-size: 2.1em;
   font-weight: 600;
   display: block;
-  margin-block-start: 1.33em;
-  margin-block-end: 1.33em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 .label-post {
@@ -54,6 +57,13 @@
 
 .p-center, .h1-black, .card-title, .card-text, .h4-black {
   text-align: center;
+}
+
+.p-center {
+  color: #999;
+  text-transform: capitalize;
+  width: 60%;
+  margin: 1em auto 0;
 }
 
 .card-text {
@@ -102,8 +112,10 @@
 }
 
 .img-link:hover {
-    background-color:  rgba(255, 255, 255, 0.952);
-    cursor: pointer;
+  color: #fff;
+  opacity: .8;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
@@ -146,5 +158,8 @@
   .card-p, .card-l {
     margin: 2% 2% 0 0;
     width: 30%;
+  }
+  .grid-cont, .row-cont {
+    margin-left: 6%;
   }
 }
