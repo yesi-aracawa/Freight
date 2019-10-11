@@ -62,4 +62,73 @@
     width: 99.1%;
 }
 
+@media (max-width: 768px) {
+    /*para dispositivos MENORES a 768 px, celulares en horizontal o tablets en vertical*/
+    .freight{
+        width: 180px;    
+        padding: 80px 15px 20px 120px;
+    }
+    .content-footer{
+        max-width: 1140px;
+        display: block;
+    }
+    .navigation{
+        width: 180px;    
+        padding: 10px 15px 10px 120px;
+    }
+    .links{
+        width: 180px;    
+        padding: 10px 15px 10px 120px;
+    }
+}
+
+@media (min-width:768px) {
+    /*para dispositovos MAYORES a 768 px, tablets en horizontal*/
+    .freight{
+        width: 180px;    
+        padding: 80px 15px 20px 120px;
+    }
+    .content-footer{
+        max-width: 1140px;
+        display: block;
+    }
+    .navigation{
+        width: 180px;    
+        padding: 10px 15px 10px 120px;
+    }
+    .links{
+        width: 180px;    
+        padding: 10px 15px 10px 120px;
+    }
+}
+
+@media (min-width: 992px) {
+    /*para dispositivos mayores a 992 px, computadora*/
+    .content-footer{
+        max-width: 1140px;
+        display: inline-flex;
+    }
+    .navigation{
+        width: 180px;    
+        padding: 80px 15px 60px 120px;
+    }
+    .links{
+        width: 180px;    
+        padding: 80px 15px 60px 15px;
+    }
+}
+
+@media (min-width: 1050px) {
+    /*para dispositivos mayores a 1050 px, computadora*/
+}
+
+@media (min-width: 1110px) {
+    /*para dispositivos mayores a 1110 px, computadora*/
+    .content-footer{
+        max-width: 1140px;
+        display: inline-flex;
+    }
+}
+
+
 
