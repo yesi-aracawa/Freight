@@ -1,0 +1,22 @@
+.row-images{
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	top: -40px;
+	width: 72%;
+}
+.div-img{
+	box-sizing: border-box;
+	display: inline-block;
+	padding-left: 12px;
+	padding-right: 12px;
+	width: 33%;
+}
+.wwo-img{
+	border: solid 4px white;
+	border-radius: 2px;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 100%;
+}
+

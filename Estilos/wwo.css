@@ -92,4 +92,7 @@
 	text-align: center;
 	width: 175px;
 }
+.btn-view:hover{
+	opacity: 0.9;
+}
 

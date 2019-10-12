@@ -1,0 +1,16 @@
+.sec-insol{
+	box-sizing: border-box;
+	padding-bottom: 3rem;
+	padding-top: 3rem;
+}
+.div-insol{
+	box-sizing: border-box;
+    min-height: 500px;
+    padding: 0 15px;
+    width: 50%;
+}
+.insol-mg{
+	min-width: 453px;
+	width: 100%;
+}
+
