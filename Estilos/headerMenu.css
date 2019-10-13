@@ -21,6 +21,7 @@
     text-decoration: none;
     color: #FFFF;
     font-size: 48px;
+    padding: 0px 130px 0px 0px;
 }
 .logo1:hover {
     text-decoration: none;
@@ -79,6 +80,7 @@ ul {
     border-radius: 5px;
     border: #FFFF 1px solid;
 }
+
   
   li a:hover, .dropdown:hover .dropbtn {
     color: #FCBABD;

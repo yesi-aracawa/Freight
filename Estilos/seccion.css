@@ -6,10 +6,7 @@
     overflow: hidden;
     margin-left: -1%;
 }
-#transparencia{
-    opacity: 0.9;
-    background-color: black;
-}
+
 .text-img{
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
@@ -37,6 +34,7 @@
 }
 .texto-imagen{
     padding: 130px 350px 30px 130px;
+    background-color: rgba(0, 0, 0, 0.492);
 }
 .caja-texto{
     padding: 10px 12px;
