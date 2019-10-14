@@ -1,134 +1,179 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap');
-.fondo{
-    background-image: url(../Imagenes/port.jpg);
+.fondo1 {
+    background-image: url(../Imagenes/port2.jpg);
     max-height: 100%;
     width: 101.6%;
     overflow: hidden;
     margin-left: -1%;
 }
 
-.text-img{
+.textImg {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     color: #ECF0F6;
-    font-size: 50px;
+    font-size: 32px;
 }
-.text-lorem{
+
+.textRosa {
     font-family: 'Lato', sans-serif;
-    font-weight: normal;
-    color: #ECF0F6;
-    font-size: 15px;
+    color: #FC636B;
+    font-size: 1rem;
     letter-spacing: 1.5px;
     line-height: 27px;
 }
-.contentImg{
+
+.content-Img {
     position: inherit;
     display: inline-block;
     text-align: left;
     width: 100%;
     max-height: 100%;
 }
-.content-text{
+
+.contentText {
     top: 40%;
     left: 90px;
 }
-.texto-imagen{
+
+.textoImagen {
     padding: 130px 350px 30px 130px;
-    background-color: rgba(0, 0, 0, 0.492);
+    background-color: rgba(0, 0, 0, 0.592);
 }
-.caja-texto{
-    padding: 10px 12px;
-    border: none;
-    letter-spacing: 1px;
-    font-size: 14px;
-    width: 40%;
-    height: 40px;
+
+.sub-texto {
+    font-family: 'Poppins', sans-serif;
+    color: #ECF0F6;
+    letter-spacing: 1.5px;
+    line-height: 27px;
 }
-.btn-track{
+.formulario{
+    padding: 10% 0%;
+}
+
+.div-texto {
+    font-family: 'Lato', sans-serif;
+    color: #C0C3C6;
+    letter-spacing: 1.5px;
+    line-height: 27px;
+}
+
+.izquierda {
+    float: left;
+    padding: 0px 15px;
+    width: 350px;
+}
+
+.derecha {
+    padding: 0.5px 15px;
+    width: 350px;
+    margin-left: 50%;
+}
+.btn-view{
     background: #11d491;
     color: #fff;
     border-radius: 0;
+    font-family: 'Lato', sans-serif;
     border: none;
     font-size: 15px;
+    font-weight: bold;
     height: 40px;
-    padding: 11px 20px;
-    margin-left: -0.5%;
+    padding: 5px 43px;
+    margin-left: 1.8%;
+    letter-spacing: 1px;
 }
 
 @media (min-width:250px) {
     /*para dispositovos MAYORES a 250 px*/
-       
 }
 
 @media (min-width:450px) {
-         /*para dispositivos mayores a 450 px, celulares en horizontal o tablets en vertica*/
-    
+    /*para dispositivos mayores a 450 px, celulares en horizontal o tablets en vertica*/
 }
 
 @media (min-width:560px) {
     /*para dispositivos mayores a 560 px, celulares en horizontal o tablets en vertical*/
-    
 }
 
 @media (max-width: 768px) {
     /*para dispositivos MENORES a 768 px, celulares en horizontal o tablets en vertical*/
-    .fondo{
+    .fondo1 {
         width: 102.3%;
         overflow: hidden;
         margin-left: -1.2%;
     }
-    .text-img{
+    .textImg {
         font-family: 'Poppins', sans-serif;
         font-weight: 900;
         color: #ECF0F6;
-        font-size: 40px;
+        font-size: 32px;
     }
-    .text-lorem{
+    .textLorem {
         font-family: 'Lato', sans-serif;
         font-weight: normal;
         color: #ECF0F6;
         font-size: 12px;
         letter-spacing: 1.5px;
     }
-    .texto-imagen{
+    .textoImagen {
         padding: 90px 35px 30px 30px;
     }
-    .btn-track{
-        margin-left: -0.7%;
+    .izquierda {
+        padding: 0px 15px;
+    }
+    .derecha {
+        padding: 0.5px 15px;
+        display: inline-block;
+        margin-left: auto;
     }
 }
 
 @media (min-width:768px) {
     /*para dispositovos MAYORES a 768 px, tablets en horizontal*/
-    .fondo{
+    .fondo1 {
         width: 102%;
         overflow: hidden;
         margin-left: -1%;
     }
-    .text-img{
+    .textImg {
         font-family: 'Poppins', sans-serif;
         font-weight: 900;
         color: #ECF0F6;
-        font-size: 50px;
+        font-size: 32px;
     }
-    .text-lorem{
+    .textLorem {
         font-family: 'Lato', sans-serif;
         font-weight: normal;
         color: #ECF0F6;
         font-size: 15px;
         letter-spacing: 1.5px;
     }
-    .texto-imagen{
+    .textoImagen {
         padding: 90px 95px 30px 60px;
     }
-    .btn-track{
-        margin-left: -0.7%;
+    .izquierda {
+        float: left;
+        padding: 0px 15px;
+        width: 300px;
+    }
+    .derecha {
+        padding: 0.5px 15px;
+        width: 300px;
+        margin-left: 60%;
     }
 }
 
 @media (min-width: 992px) {
     /*para dispositivos mayores a 992 px, computadora*/
-    
+    .izquierda {
+        float: left;
+        padding: 0px 15px;
+        width: 350px;
+    }
+    .derecha {
+        padding: 0.5px 15px;
+        width: 350px;
+        margin-left: 50%;
+    }
 }
 
 @media (min-width: 1050px) {
@@ -137,12 +182,24 @@
 
 @media (min-width: 1110px) {
     /*para dispositivos mayores a 1110 px, computadora*/
-    .fondo{
+    .fondo1 {
         width: 101.6%;
         overflow: hidden;
         margin-left: -1%;
     }
-    .texto-imagen{
-        padding: 130px 350px 30px 130px;
+    .textoImagen {
+        padding: 100px 350px 30px 50px;
+    }
+    .izquierda {
+        float: left;
+        padding: 0px 15px;
+        width: 300px;
+    }
+    .derecha {
+        padding: 0.5px 15px;
+        width: 300px;
+        margin-left: 50%;
     }
 }
+
+
