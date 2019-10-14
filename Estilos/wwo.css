@@ -60,7 +60,7 @@
     display: flex;
     justify-content: center;
 }
-.btn-view{
+.btn-view2{
 	background: #11d491;
 	border: none;
 	box-sizing: border-box;
@@ -74,7 +74,7 @@
 	text-align: center;
 	width: 175px;
 }
-.btn-view:hover{
+.btn-view2:hover{
 	opacity: 0.9;
 	cursor: pointer;
 }

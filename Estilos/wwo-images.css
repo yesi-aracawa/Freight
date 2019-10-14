@@ -12,7 +12,7 @@
 	border-radius: 2px;
 	width: 100%;
 }
-.text-img{
+.text-img2{
 	box-sizing: border-box;
 	color: black;
 	font-family: 'Lato', sans-serif;
@@ -37,22 +37,22 @@
   }
 }
 @media (min-width: 699px){
-  .text-img{
+  .text-img2{
 	font-size: 14.4px;
   }
 }
 @media (max-width: 699px){
-  .text-img{
+  .text-img2{
   	font-size: 14.4px;	
   }
 }
 @media (min-width: 700px){
-  .text-img{
+  .text-img2{
   	font-size: 16.8px;	
   }
 }
 @media (min-width: 784px){
-  .text-img{
+  .text-img2{
   	font-size: 19.2px;	
   }
 }
