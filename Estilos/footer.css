@@ -23,14 +23,24 @@
     font-weight: normal;
     text-decoration: none;
 }
+.correo:hover{
+    color: #fff;
+}
+.sin-hover:hover{
+    text-decoration: none;
+    color: #FCBABD;
+}
 .correo{
     color: #fff;
     font-family: 'Lato', sans-serif;
+    text-decoration: underline;
 }
 .detalles-letra{
     color: #fff;
+    text-decoration: none;
     font-family: 'Lato', sans-serif;
     line-height: 28px;
+    
 }
 .navigation{
     width: 180px;    
@@ -47,10 +57,12 @@
 .detalle-hr{
     border-top: 1px solid rgba(255, 255, 255, 0.36);
     margin-top: 1rem;
+    width: 150px;
 }
 .links{
     width: 180px;    
     padding: 80px 15px 60px 15px;
+    text-align: left;
 }
 .privacidad{
     padding: 1vw;
@@ -61,6 +73,7 @@
     margin-left: -7.6px;
     width: 99.1%;
 }
+
 
 @media (max-width: 768px) {
     /*para dispositivos MENORES a 768 px, celulares en horizontal o tablets en vertical*/
@@ -78,6 +91,10 @@
     }
     .links{
         width: 180px;    
+        padding: 10px 15px 10px 120px;
+    }
+    .links1{
+        width: 180px;
         padding: 10px 15px 10px 120px;
     }
 }
@@ -100,6 +117,10 @@
         width: 180px;    
         padding: 10px 15px 10px 120px;
     }
+    .links1{
+        width: 180px;
+        padding: 10px 15px 10px 120px;
+    }
     .abajo{
         display: flex;
     }
@@ -114,11 +135,17 @@
     .navigation{
         width: 180px;    
         padding: 80px 15px 60px 120px;
+        margin-left: 10%;
     }
     .links{
-        width: 180px;    
-        padding: 80px 15px 60px 15px;
+        width: 250px;
+        padding: 80px 15px 60px 120px;
     }
+    .links1{
+        width: 250px;
+        padding: 80px 15px 60px 50px;
+    }
+    
 }
 
 @media (min-width: 1050px) {
