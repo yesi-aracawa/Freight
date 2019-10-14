@@ -1,0 +1,141 @@
+.sec-insol{
+	box-sizing: border-box;
+	padding-bottom: 48px;
+	padding-top: 48px;
+}
+.img-insol{
+	box-sizing: border-box;
+	background: url(../Imagenes/m1.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 500px;
+    padding-left: 0;
+}
+.clg1{
+	box-sizing: border-box;
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 30px;
+}
+.clg2{
+	box-sizing: border-box;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+.text-insol{
+	box-sizing: border-box;
+	padding-right: 15px;
+}
+.insol-circle{
+	border: 2px solid gray;
+	border-radius: 50%;
+	display: border-box;
+	margin: auto;
+	/*Para alinear el icono*/
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /*^^^^^^^^^^^^^^^^^^^^^^*/
+}
+.title-insol{
+	color: #212529;
+	font-family: 'Poppins', sans-serif;
+}
+.subtitle-insol{
+	color: #999;
+	font-family: 'Lato', sans-serif;
+}
+.space{
+	box-sizing: border-box;
+	padding-top: 8px;
+	margin-top: 3%;
+}
+.title-div{
+	font-family: 'Lato', sans-serif;
+	text-transform: capitalize;
+}
+.subtitle-div{
+	color: #fc636b;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 12%;
+	text-transform: capitalize;
+}
+.div-btn-insol{
+    display: flex;
+    justify-content: left;
+}
+.btn-insol{
+	background: #11d491;
+	border: none;
+	box-sizing: border-box;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    height: 36px;
+	margin-top: 7%;
+	padding: 5px 43px;
+	text-align: center;
+	width: 175px;
+}
+@media (min-width: 992px){
+	.clg2{
+		margin: 0;
+	}
+}
+@media screen and (max-width: 991px){
+	.img-insol {
+    	min-height: 420px;
+	}
+	.clg2{
+		margin-top: 24px;
+	}
+}
+@media (min-width: 668px){
+	.insol-circle{
+		height: 80px;
+		width: 80px;
+	}
+}
+@media (max-width: 667px){
+	.insol-circle{
+		height: 60px;
+		width: 60px;
+	}
+}
+@media (min-width: 576px){
+	.text-insol{
+		padding-left: 15px;
+	}
+	.title-insol{
+		font-size: 20.8px;
+	}
+	.subtitle-insol{
+		font-size: 14px;
+	}
+	.title-div{
+		font-size: 36.8px;
+	}
+	.subtitle-div{
+		font-size: 16px;
+	}
+}	
+@media (max-width: 575px){
+	.text-insol{
+		padding-left: 30px;
+	}
+	.title-insol{
+		font-size: 16px;
+	}
+	.subtitle-insol{
+		font-size: 13px;
+	}
+	.title-div{
+		font-size: 22.4px;
+	}
+	.subtitle-div{
+		font-size: 16px;
+	}
+}
+

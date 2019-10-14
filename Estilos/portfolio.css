@@ -55,6 +55,10 @@
   letter-spacing: 1px;
 }
 
+.btn-read:hover{
+    opacity: 0.9;
+}
+
 .p-center, .h1-black, .card-title, .card-text, .h4-black {
   text-align: center;
 }
