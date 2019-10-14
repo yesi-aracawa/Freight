@@ -4,6 +4,7 @@
 	width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    padding-bottom: 9%;
 }
 .wwo-container{
 	font-family: 'Poppins', sans-serif;
@@ -32,9 +33,11 @@
 .circle{
 	border: 2px solid gray;
 	border-radius: 50%;
+	/*Para alinear el icono*/
     align-items: center;
     display: flex;
     justify-content: center;
+    /*^^^^^^^^^^^^^^^^^^^^^^*/
 }
 .icon{
 	color: #11d491;
@@ -66,20 +69,21 @@
     font-size: 16px;
     height: 36px;
 	margin: auto;
-	margin-top: 48px;
+	margin-top: 7%;
 	padding: 5px 43px;
 	text-align: center;
 	width: 175px;
 }
 .btn-view:hover{
 	opacity: 0.9;
+	cursor: pointer;
 }
-@media (max-width: 992px){
+@media (max-width: 991px){
 	.wwo-circle{
-	align-items: center;
-    display: flex;
-    justify-content: center;
-}
+		align-items: center;
+	    display: flex;
+	    justify-content: center;
+	}
 }
 @media (min-width: 634px){
 	.circle{
