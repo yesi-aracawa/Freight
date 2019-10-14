@@ -121,6 +121,9 @@
   text-decoration: none;
   cursor: pointer;
 }
+.row {
+  justify-content: center;
+}
 
 @media screen and (max-width: 767px) {
  .card-p, .card-l {
@@ -133,6 +136,9 @@
 
   .grid-cont, .row-cont {
     display: block;
+    padding-left: 6%;
+    margin: 0 auto;
+    width: 100%;
   }
 }
 
@@ -155,6 +161,9 @@
 
   .grid-cont {
     display: block;
+    padding-left: 6%;
+    margin: 0 auto;
+    width: 100%;
   }
 }
 
@@ -164,6 +173,8 @@
     width: 30%;
   }
   .grid-cont, .row-cont {
-    margin-left: 6%;
+    padding-left: 6%;
+    margin: 0 auto;
+    width: 100%;
   }
 }
