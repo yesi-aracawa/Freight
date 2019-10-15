@@ -51,8 +51,11 @@
     border: none;
     font-size: 15px;
     height: 40px;
-    padding: 11px 20px;
-    margin-left: -0.5%;
+    width: 90px;
+    cursor: pointer;
+}
+.btn-track:hover{
+    background: #11d49077;
 }
 
 @media (min-width:250px) {
@@ -94,7 +97,7 @@
         padding: 90px 35px 30px 30px;
     }
     .btn-track{
-        margin-left: -0.7%;
+        width: 90px;
     }
 }
 
@@ -122,7 +125,7 @@
         padding: 90px 95px 30px 60px;
     }
     .btn-track{
-        margin-left: -0.7%;
+        width: 90px;
     }
 }
 
