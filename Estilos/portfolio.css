@@ -17,7 +17,7 @@
 }
 .latest, .portfolio {
   margin-top: 2%;
-  padding-bottom: 3%;
+  padding-bottom: 0;
 }
 .h4-black {
   text-transform: capitalize;
